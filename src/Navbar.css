@@ -1,0 +1,46 @@
+.Navbar {
+  position: fixed;
+  margin: 0;
+  z-index: 1000;
+  width: 100vw;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgb(234, 204, 106), rgb(251, 184, 58));
+}
+.nav-grouping {
+  padding: 15px;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.nav-grouping li {
+  margin: 5px;
+  font-weight: bold;
+}
+.nav-grouping li:hover {
+  text-decoration: underline;
+}
+.nav-logo {
+  width: 100px;
+  height: 100px;
+  background-image: url("./assets/RCTrans.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+.contact-paragraph {
+  width: 40vw;
+  color: rgb(0, 0, 0);
+  font-size: small;
+  margin: 15px;
+}
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+a {
+  text-decoration: none;
+  color: purple;
+}

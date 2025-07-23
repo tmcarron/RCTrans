@@ -1,0 +1,7 @@
+.Home {
+  padding-top: 150px;
+  display: flex;
+  height: 71vh;
+  flex-direction: column;
+  text-align: center;
+}

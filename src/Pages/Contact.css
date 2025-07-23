@@ -1,0 +1,23 @@
+.Contact {
+  padding-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  margin-bottom: 600px;
+  justify-content: center;
+  text-align: center;
+}
+
+.Contact p {
+  background-color: antiquewhite;
+  color: black;
+  width: 40vw;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 0.9em;
+}
+.Contact p ul li {
+  list-style: none;
+}

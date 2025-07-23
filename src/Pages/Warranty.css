@@ -1,0 +1,15 @@
+.Warranty {
+  padding-top: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.Warranty p {
+  background-color: antiquewhite;
+  color: black;
+  width: 60vw;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 0.9em;
+}

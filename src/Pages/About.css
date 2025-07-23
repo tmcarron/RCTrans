@@ -1,0 +1,17 @@
+.About {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  overflow-y: scroll;
+}
+.About p {
+  background-color: antiquewhite;
+  color: black;
+  width: 60vw;
+  padding: 30px;
+  border-radius: 10px;
+  font-size: 0.9em;
+}

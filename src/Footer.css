@@ -1,0 +1,27 @@
+.Footer {
+  height: 150px;
+  display: flex;
+  position: fixed;
+  color: rgb(0, 0, 0);
+  bottom: 0;
+  width: 100vw;
+  list-style: none;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, rgb(234, 204, 106), rgb(251, 184, 58));
+  height: 70px;
+  font-weight: 200;
+  border-top: 2px solid black;
+}
+.Footer ul {
+  display: flex;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  text-align: end;
+  list-style: none;
+}
+.Footer ul li {
+  bottom: 0px;
+  padding: 15px;
+}
