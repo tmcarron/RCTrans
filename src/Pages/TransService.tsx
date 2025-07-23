@@ -7,17 +7,14 @@ const TransService = () => {
         <h1>Transmission services</h1>
         <h2>Rebuild</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-          molestiae dolorem mollitia accusamus repudiandae assumenda ratione et
-          hic aut odio voluptas porro error expedita illo accusantium!
-          Temporibus repellendus magnam minima.
+          Overhaul kit, new fluid, torque converter, 5 year unlimited mile
+          warranty
         </p>
-        <h2>other service</h2>
+        <h2>Other Services</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit,
-          molestiae dolorem mollitia accusamus repudiandae assumenda ratione et
-          hic aut odio voluptas porro error expedita illo accusantium!
-          Temporibus repellendus magnam minima.
+          We offer a variety of services depending on the vehicle and the issue
+          you're facing. Give us a call and we can set up a free apointment to
+          check it out.
         </p>
       </section>
     </div>

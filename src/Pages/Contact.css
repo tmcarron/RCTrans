@@ -13,11 +13,43 @@
 .Contact p {
   background-color: antiquewhite;
   color: black;
-  width: 40vw;
-  padding: 30px;
+  width: 420px;
+  padding: 20px;
   border-radius: 10px;
   font-size: 0.9em;
 }
 .Contact p ul li {
+  padding: 0;
   list-style: none;
+}
+.Contact p ul {
+  padding: 0;
+  margin: 0;
+}
+.Contact .scrollable-section {
+  overflow-y: scroll;
+  padding-top: 75px;
+  padding-bottom: 750px;
+  height: 50vh;
+}
+@media (max-width: 468px) {
+  .Contact .scrollable-section {
+    width: 100vw;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .Contact p {
+    padding: 10px;
+    width: 300px;
+  }
+  iframe {
+    width: 300px;
+    height: 300px;
+    margin-bottom: 100px;
+  }
 }

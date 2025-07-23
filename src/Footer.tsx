@@ -8,7 +8,7 @@ const Footer = () => {
           <a href="tel:+12482885575">248.288.5575</a>
         </li>
         <li>Diagnosis is FREE</li>
-        <li>5 year warranty on rebuilds</li>
+        <li>Ask about our warranty</li>
       </ul>
     </div>
   );

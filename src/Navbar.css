@@ -44,3 +44,16 @@ a {
   text-decoration: none;
   color: purple;
 }
+@media (max-width: 480px) {
+  .nav-grouping {
+    padding: 0;
+  }
+  .nav-logo {
+    height: 60px;
+    width: 60px;
+  }
+  .contact-paragraph {
+    padding-top: 3px;
+    margin-top: 0;
+  }
+}

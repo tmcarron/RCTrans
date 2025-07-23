@@ -12,13 +12,11 @@ body {
   margin: 0;
   height: 100vh;
   width: 100vw;
-  position: relative; /* For positioning context */
   background-color: black; /* Fallback to black */
-  background-image: 
-    /* Gradient overlay fading to black */ url(./assets/IMG_0320.jpg); /* Background image */
+  background-image: url(./assets/IMG_0320.jpg); /* Background image */
   background-size: cover;
   background-repeat: no-repeat;
-  background-blend-mode: normal; /* Ensures gradient overlays the image */
+  background-position: center 30px;
 }
 
 * {
@@ -42,4 +40,19 @@ h2 {
 .scrollable-section {
   max-height: 71vh;
   overflow-y: scroll;
+}
+@media (min-width: 1350px) {
+  body {
+    background-position: center center;
+  }
+  .Home h1,
+  .Home h2 {
+    text-align: right;
+    margin-right: 170px;
+  }
+}
+@media (max-width: 480px) {
+  .scrollable-section {
+    max-height: 400px;
+  }
 }
