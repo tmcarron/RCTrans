@@ -2,18 +2,20 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="Contact">
+    <div className="Contact" id="contact">
       <section className="scrollable-section">
+        <h2>Contact Us</h2>
         <p>
           <ul>
             <li>
-              email:{" "}
+              <span className="bold">email:</span>{" "}
               <a href="mailto:rctransandgearinc@gmail.com">
                 rctransandgearinc@gmail.com
               </a>
             </li>
             <li>
-              phone: <a href="tel:+12482885575">248.288.5575</a>
+              <span className="bold">phone:</span>{" "}
+              <a href="tel:+12482885575">248.288.5575</a>
             </li>
           </ul>
         </p>

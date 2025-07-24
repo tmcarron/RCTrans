@@ -1,11 +1,10 @@
 .About {
-  padding-top: 100px;
+  padding-top: 200px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 500px;
-  overflow-y: scroll;
+  margin-bottom: 250px;
 }
 .About p {
   background-color: antiquewhite;

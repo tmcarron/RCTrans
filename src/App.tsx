@@ -1,4 +1,3 @@
-import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./Navbar";
 import TransService from "./Pages/TransService";
@@ -11,16 +10,15 @@ import ReactGA from "react-ga4";
 ReactGA.initialize("G-L28TPPQFFQ");
 function App() {
   return (
-    <>
+    <div className="App">
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/trans-service" element={<TransService />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
+      <Home />
+      <TransService />
+
+      <Contact />
+      <About />
       <Footer />
-    </>
+    </div>
   );
 }
 

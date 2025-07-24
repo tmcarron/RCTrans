@@ -2,9 +2,9 @@ import "./TransService.css";
 
 const TransService = () => {
   return (
-    <div className="TransService">
+    <div className="TransService" id="trans-service">
       <section className="scrollable-section">
-        <h1>Transmission services</h1>
+        <h1>Transmission Services</h1>
         <h2>Rebuild</h2>
         <p>
           Overhaul kit, new fluid, torque converter, 5 year unlimited mile
